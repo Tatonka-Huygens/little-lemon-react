@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Specials from "./Specials";
 
 
-function Homepage() {
+function Main() {
     return (
         <main>
             <section>
@@ -19,5 +19,5 @@ function Homepage() {
       )
 }
 
-export default Homepage;
+export default Main;
 
