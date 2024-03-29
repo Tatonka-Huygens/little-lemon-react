@@ -90,6 +90,7 @@ function BookingForm() {
              <option value="birthday">Birthday</option> 
              <option value="anniversary">Anniversary</option> 
              <option value="wedding">Wedding</option>
+             <option value="none">None</option>
            </select> 
          </div> 
          <div className="Field"> 
