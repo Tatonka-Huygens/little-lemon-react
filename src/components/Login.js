@@ -43,7 +43,7 @@ function Login() {
  
  const handleSubmit = (e) => { 
    e.preventDefault(); 
-   alert("Your Account has been created!"); 
+   alert(`Your Account has been created, ${firstName}!`);
    clearForm(); 
  }; 
  
