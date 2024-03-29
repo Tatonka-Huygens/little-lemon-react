@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import Specials from "./Specials";
 
 
-function Main() {
+function Homepage() {
     return (
-        <main>
+        <div>
             <section>
                 <article id="hero">
                 <h1 className="heading-shadow">SPECIAL OFFER</h1>
@@ -15,9 +15,9 @@ function Main() {
                 </article>
             </section>
             <Specials/>
-        </main>
+        </div>
       )
 }
 
-export default Main;
+export default Homepage;
 

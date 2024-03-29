@@ -21,6 +21,7 @@ function App() {
       <Nav/>
       </article>
     </section>
+    <section>
       <Routes>
         <Route path="/" element={<Homepage/>} />
         <Route path="/about-us" element={<AboutUs/>} />
@@ -29,6 +30,7 @@ function App() {
         <Route path="/order-online" element={<OrderOnline/>} />
         <Route path="/login" element={<Login/>} />
       </Routes>
+    </section>
       <Footer/>
     </>
   );
