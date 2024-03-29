@@ -4,7 +4,7 @@ import Specials from "./Specials";
 
 function Homepage() {
     return (
-        <div>
+        <main>
             <section>
                 <article id="hero">
                 <h1 className="heading-shadow">SPECIAL OFFER</h1>
@@ -15,7 +15,7 @@ function Homepage() {
                 </article>
             </section>
             <Specials/>
-        </div>
+        </main>
       )
 }
 
